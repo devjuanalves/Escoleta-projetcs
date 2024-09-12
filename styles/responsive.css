@@ -5,7 +5,7 @@
 
     #page-home .content {
         align-items: center;
-        text-align: left;
+        text-align: center;
     }
 
 
@@ -19,7 +19,20 @@
     #page-home main {
         align-items: center;      
     }
+
+    #page-search-results .cards {
+        margin-top: 48px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 24px;
+    }
+
+    #page-search-results .cards .img {
+        height: 350px;
+    }
+
 }
+
 
 
 @media(min-width: 1700px) {

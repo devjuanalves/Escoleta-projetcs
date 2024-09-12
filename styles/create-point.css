@@ -139,9 +139,12 @@ form button:hover{
     color: var(--title-color)
 }
 
-.item-grid li.selected {
+.items-grid li.selected {
     background: #e1face;
     border: 2px solid #34cb79;
 }
 
-
+.items-grid li img,
+.items-grid li span {
+    pointer-events: none;
+}
